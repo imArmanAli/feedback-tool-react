@@ -51,16 +51,20 @@ const HomePage = () => {
                             <h1 className="mb-0">Feedbacks</h1>
                             <Link to="/add-feedback" className="btn btn-primary">Add Feedback</Link>
                         </div>
-                        {feedbacks.map((feedback) => (
-                            <div key={feedback.id} className="card mb-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">{feedback.title}</h5>
-                                    <p className="card-text">{feedback.description}</p>
-                                    <p className="card-text"><strong>Category:</strong> {feedback.category}</p>
-                                    <Link to={`/feedback/${feedback.id}`} className="btn btn-primary">View Details</Link>
+                        {feedbacks.length > 0 ? (
+                            feedbacks.map((feedback) => (
+                                <div key={feedback.id} className="card mb-3">
+                                    <div className="card-body">
+                                        <h5 className="card-title">{feedback.title}</h5>
+                                        <p className="card-text">{feedback.description}</p>
+                                        <p className="card-text"><strong>Category:</strong> {feedback.category}</p>
+                                        <Link to={`/feedback/${feedback.id}`} className="btn btn-primary">View Details</Link>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
+                            ))
+                        ) : (
+                            <p>No Feedbacks added yet</p>
+                        )}
                     </div>
 
 
