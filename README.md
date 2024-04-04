@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Feedback Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Feedback Tool is a web application developed using React for the frontend and Laravel 8 for the backend. It allows users to see and provide feedbacks on various topics.
 
-## Available Scripts
+## Running the Application
 
-In the project directory, you can run:
+Before running the application, ensure that the Laravel server is up and running. Please refer to the Laravel README file for instructions on setting up and running the backend server.
 
-### `npm start`
+### Setting Up the Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository**: Open an empty folder and initialize a Git repository by typing the following commands in the command prompt:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```
+    git init
+    ```
 
-### `npm test`
+    Then, clone the repository by executing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```
+    git clone [repository_url]
+    ```
 
-### `npm run build`
+    Replace `[repository_url]` with the URL of the repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**: Once the repository is cloned, navigate into the project directory and install the dependencies by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```
+    npm i --force
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    This command will install all the necessary dependencies for the frontend application.
 
-### `npm run eject`
+3. **Start the Application**: After the dependencies are installed, start the application by executing:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    This command will start the development server and open the application in your default web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions to the Feedback Tool are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request on GitHub.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
